@@ -33,7 +33,7 @@ One can notice that the reconstruction is not similar compared to the rasterized
 
 ## Use-case exemple 💡
 
-Here is a use case I though of for this technique : integration of a glossy 3D object that moves between detailed object.
+Here is a use case I though of for this technique : integration of a glossy 3D mesh that moves between detailed object.
 In this context, a rough rotoscopie does not provide enough detail while an HDRI would not allow the sphere to move freely through the scene. 
 Thus It seems to me that raytracing gaussian splats is in this context one of the best pipeline one can come up with.
 
