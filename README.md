@@ -37,7 +37,7 @@ Here is a use case I though of for this technique : integration of a glossy 3D o
 In this context, a rough rotoscopie does not provide enough detail while an HDRI would not allow the sphere to move freely through the scene. 
 Thus It seems to me that raytracing gaussian splats is in this context one of the best pipeline one can come up with.
 
-https://github.com/user-attachments/assets/4828d9df-3dc6-4475-935f-111405329c5c
+<video src="https://github.com/user-attachments/assets/4828d9df-3dc6-4475-935f-111405329c5c" controls width="100%"></video>
 Video Exemple of an effect that in my opinion, Raytraced Gaussians are really helpful for. This is not perfect of course, I did it in a couple of afetrnoon with my phone. The training of the splat have been cut half way finished and I forgot to scan the ceiling.
 
 
