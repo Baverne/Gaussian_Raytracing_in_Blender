@@ -108,7 +108,7 @@ I did not implement Blender object rotation influence over ray-direction managem
 
 - The actual Moenne-Loccoz et al. (2024) implementation includes instancing and shadow projections which this Cycles implementation does not.
 - As explained in Moenne-Loccoz et al. (2024), each scene should be fine-tuned with a ray-tracing rendering method in order to be as accurate as possible with this rendering method.
-- Rendering is far from real-time. The provided example frame was rendered on an RTX 3080 in 2 minutes and 30 seconds. (Most of the time is actually used to compute BVH and load everything in memory.) I recommend using a Gaussian rasterization addon to set up the scene and only use ray-tracing for final rendering.
+- Rendering is far from real-time. Each frame of he provided example video took approximatly 2 minute 30 sec to render on an RTX 3080. (Most of the time is actually used to compute BVH and load everything in memory). I recommend using a Gaussian rasterization addon to set up the scene and only use ray-tracing for final rendering.
 
 ## References 📚
 
